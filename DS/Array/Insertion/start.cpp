@@ -1,5 +1,5 @@
-//aanchal
-/*#include<stdio.h>
+//aanchal 2501920100582
+#include<stdio.h>
 int main(){
     int i,arr[10],ele,size;
     printf("Enter size of array : ");
@@ -26,9 +26,9 @@ int main(){
         }
     }
     return 0;
-}*/
+}
 
-#include<bits/stdc++.h>
+/*#include<bits/stdc++.h>
 using namespace std;
 struct Node{
     int data;
@@ -132,4 +132,4 @@ int main(){
     insertPos(val,pos);
     show();
     return 0;
-}
+}*/

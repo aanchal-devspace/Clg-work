@@ -1,3 +1,4 @@
+//AANCHAL 2501920100582
 #include <stdio.h>
 void show(int a[], int n) {
     for (int i = 0; i < n; i++) {
