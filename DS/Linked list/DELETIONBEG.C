@@ -1,10 +1,10 @@
+//AANCHAL
 #include <stdio.h>
 #include <stdlib.h>
 struct Node {
     int data;
     struct Node* next;
 };
-
 void show(struct Node* head) {
     struct Node* temp = head;
     while (temp != NULL) {
@@ -36,12 +36,10 @@ struct Node* delete_pos(struct Node* head, int pos) {
     free(del);
     return head;
 }
-
 int main() {
     struct Node* head = (struct Node*)malloc(sizeof(struct Node));
     struct Node* second = (struct Node*)malloc(sizeof(struct Node));
     struct Node* third = (struct Node*)malloc(sizeof(struct Node));
-
     head->data = 10;
     head->next = second;
     second->data = 20;
@@ -50,11 +48,9 @@ int main() {
     third->next = NULL;
     printf("Current List: ");
     show(head);
-
     int pos;
     head = delete_pos(head, 0);
     printf("Updated List: ");
     show(head);
-
     return 0;
 }

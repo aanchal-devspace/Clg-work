@@ -1,3 +1,4 @@
+//aanchal
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,7 +7,6 @@ struct Node {
     int exp;            
     struct Node *next;
 };
-
 struct Node* createNode(int c, int e) {
     struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
     temp->coeff = c;
@@ -14,7 +14,6 @@ struct Node* createNode(int c, int e) {
     temp->next = NULL;
     return temp;
 }
-
 void insert(struct Node** head, int c, int e) {
     struct Node* newNode = createNode(c, e);
 
