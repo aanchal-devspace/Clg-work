@@ -13,3 +13,19 @@ print(student["course"])
 
 print(student.get("name"))
 print(student.get("city","city not found"))
+
+student["city"]="Noida"
+student["age"]=21
+print(student)
+
+del student["course"]
+print(student)
+
+age=student.pop("age")
+print(age)
+print(student)
+print(student.popitem()) #pop last item of dict.
+
+temp={"a":2,"B":6}
+temp.clear()
+print(temp)
