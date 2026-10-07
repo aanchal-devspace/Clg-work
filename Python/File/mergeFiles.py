@@ -1,7 +1,7 @@
-with open("file1.txt", "r") as file1:
+with open("copy.txt", "r") as file1:
     content1 = file1.read()
 
-with open("file2.txt", "r") as file2:
+with open("table.txt", "r") as file2:
     content2 = file2.read()
 
 with open("merged.txt", "w") as file3:
